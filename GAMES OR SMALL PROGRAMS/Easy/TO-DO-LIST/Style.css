@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap:wght@800&display=swap');
+
+body {
+    background: rgb(108, 181, 208);
+    background: linear-gradient(97deg, rgba(108, 181, 208, 1) 0%, rgba(55, 236, 186, 1) 100%);
+}
+
+.MainText {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top: 20%;
+    color: white;
+    font-size: 5em;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    opacity: 100;
+    transition: all 0.75s;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: all 0.75s;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    width: 32em;
+    margin-top: 0;
+    top: 0px;
+    height: 45em;
+    border-radius: 2em;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 1);
+}
+
+
+.TextChoose {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: #333;
+}
+
+
+
+.line {
+    display: flex;
+    margin-left: 10%;
+    background: linear-gradient(97deg, rgba(108, 181, 208, 1) 0%, rgba(55, 236, 186, 1) 100%);
+    width: 80%;
+    height: 5px;
+    border-radius: 2em;
+}
+
+/* .Sport {
+    background-image: url(Pictures/Sport.png);
+    background-size: cover;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Sleep {
+    background-image: url(Pictures/Sleep.png);
+    background-size: cover;
+    background-position: center;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Travel {
+    background-image: url(Pictures/Travel.png);
+    background-size: cover;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Study {
+    background-image: url(Pictures/Study.png);
+    background-size: cover;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Work {
+    background-image: url(Pictures/Work.png);
+    background-size: cover;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Cooking {
+    background-image: url(Pictures/Cooking.png);
+    background-size: cover;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Shopping {
+    background-image: url(Pictures/Shopping.png);
+    background-size: cover;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Gaming {
+    background-image: url(Pictures/Gaming.html.png);
+    background-size: cover;
+    background-position: center;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+}
+
+.Party {
+    background-image: url(Pictures/Party.png);
+    background-size: cover;
+    background-position: center;
+    padding: 4em;
+    border-radius: 5em;
+    border: none;
+    margin: 10px;
+} */
+
+img {
+    scale: 10%;
+}
+
+.Choose button:hover {
+    padding: 5em;
+    border: solid rgba(108, 181, 208, 1)
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    opacity: 45%;
+    color: white;
+    text-align: right;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+
+.displayNo {
+    display: none;
+    transition: all 0.75s;
+}
+
+.displayYes {
+    transition: all 0.75s;
+}
+
+.AddActivity {
+    display: inline-block;
+    width: 60%;
+    border-radius: 1em;
+    padding: 0.5em;
+    border-color: #333;
+    border-width: 1px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Asap', sans-serif;
+    margin-right: 20px;
+}
+
+.SumbitAdctivity {
+    width: 5em;
+    padding: 0.6em;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 1em;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Asap', sans-serif;
+    border-width: 1px;
+    transition: width 0.2s ease-in-out, padding 0.2s ease-in-out;
+    background-color: white;
+}
+
+.SumbitAdctivity:hover {
+    width: 8em;
+    padding: 0.6em;
+}
+
+.Adctivity__row {
+    border-bottom: 1px solid #eee;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Asap', sans-serif;
+    margin-top: 2em;
+    font-size: 1.5em;
+    margin-left: 1em;
+    color: #333;
+}
+
+.CheckBox {
+     margin-right: 2em;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 1em;
+    float: right;
+}

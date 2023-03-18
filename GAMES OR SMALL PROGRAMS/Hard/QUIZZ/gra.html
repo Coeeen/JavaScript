@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gra.css">
+    <link rel="shortcut icon" href="Ikonka.png">
+</head>
+<body>
+    <div class="container">
+        <div id="gra" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-itemy">
+                    <p id="progressText" class="hud-text">
+                        Pytanie
+                    </p>
+                    <div id="PasekProgresu">
+                        <div id="FullPasek"></div>
+                    </div>
+                    
+                </div>
+                <div class="hud-itemy">
+                    <p class="Text-zegar">Czas:</p>
+                    <p id="zegar">90</p>
+                    <p class="hud-text">
+                        Wynik
+                    </p>
+                    <h1 class="hud-wynikpkt" id="wynik">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="Pytanie">Jaka jest odpowiedz na to pytanie</h1>
+            <div class="Wynik-container">
+                <p class="ZaznaczenieL">A</p>
+                <p class="Odpowiedz" data-number="1">Wynik</p>
+            </div>
+            <div class="Wynik-container">
+                <p class="ZaznaczenieL">B</p>
+                <p class="Odpowiedz" data-number="2">Wynik 2</p>
+            </div>
+            <div class="Wynik-container">
+                <p class="ZaznaczenieL">C</p>
+                <p class="Odpowiedz" data-number="3">Wynik 3</p>
+            </div>
+            <div class="Wynik-container">
+                <p class="ZaznaczenieL">D</p>
+                <p class="Odpowiedz" data-number="4">Wynik 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="gra.js"></script>
+    <footer>Krystian Jank</footer>
+</body>
+</html>

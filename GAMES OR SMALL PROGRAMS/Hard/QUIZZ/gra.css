@@ -1,0 +1,77 @@
+body {
+    color: #fff;
+}
+
+.Wynik-container {
+    display: flex;
+    margin-bottom: 13px;
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 4px;
+    background: rgb(0, 81, 255);
+    font-size: 50px;
+}
+
+.Wynik-container:hover {
+    box-shadow: 0 10px 80px 0 rgba(255, 255, 255, 0.5);
+}
+.Text-zegar{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ZaznaczenieL {
+    padding: 32px ;
+    color: white;
+}
+#zegar{
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+.Odpowiedz {
+    padding: 30px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.Dobra {
+    background: green;
+}
+
+.Zla {
+    background: red;
+}
+
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.hud-wynikpkt {
+    text-align: center;
+}
+
+#PasekProgresu {
+    width: 400px;
+    height: 50px;
+    border: 2px solid rgb(5, 8, 172);
+    margin-top: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+/* 
+overflow: hidden; -> chowanie "tego co wychodzi " pasek z lewej stroby
+  */
+#FullPasek {
+    height: 100%;
+    background: rgb(5, 8, 172);
+    width: 0%;
+}
+
+

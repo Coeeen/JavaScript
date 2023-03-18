@@ -1,0 +1,12 @@
+body {
+    color: rgb(255, 255, 255);
+}
+#ListaWynikow {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.Wyniki {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}

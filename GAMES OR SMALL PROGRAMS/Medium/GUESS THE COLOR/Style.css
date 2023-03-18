@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.top {
+    background-color: #2d8e99;
+
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+}
+
+.choose {
+    background-color: white;
+}
+
+button {
+    padding: 5%;
+    width: 25%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.game {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.NG {
+    padding: 1%;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0px;
+    
+}
+
+.NG:hover{
+    background-color: #2d8e99;
+}
+.hidden{
+    display: none;
+}
+
+.won{
+    box-shadow: 0 0 40px #ffffff;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 15%;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+
+}

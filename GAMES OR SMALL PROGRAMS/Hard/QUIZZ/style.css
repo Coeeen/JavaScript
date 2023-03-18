@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+:root {
+    background-color: black;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+#Naglowek {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.btnStart {
+    font-size: 30px;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    background: red;
+    border-radius: 5px;
+}
+.btn{
+    font-size: 30px;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    background: rgb(0, 81, 255);
+    border-radius: 5px;
+}
+
+.btnWyniki {
+    font-size: 30px;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    background: rgb(241, 255, 40);
+    border-radius: 5px;
+}
+.btnZasady {
+    font-size: 30px;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    background: rgb(40, 255, 87);
+    border-radius: 5px;
+}
+
+.btnStart:hover {
+    box-shadow: 0 10px 50px 0 rgba(160, 11, 11, 1);
+    padding: 70px;
+    width: 450px;
+}
+.btnWyniki:hover {
+    box-shadow: 0 10px 50px  0 rgba(229, 255, 0, 0.6);
+    padding: 70px;
+    width: 450px;
+}
+.btn:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 140, 255, 0.6);
+    padding: 70px;
+    width: 450px;
+}
+.btnZasady:hover {
+    box-shadow: 0 10px 50px 0 rgb(4, 230, 60);
+    padding: 70px;
+    width: 450px;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+.Koniec-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+input {
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    text-align: center;
+    padding: 25px;
+    border: none;
+    box-shadow: 0 0.1px 40px 0 rgba(255, 255, 255, 0.5);
+}
+
+input::placeholder {
+    color: rgb(53, 49, 49);
+}
+
+#Koniec-text {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+#ZapiszWynikBtn {
+    border: none;
+}
+
+.Zniknij {
+    display: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:65%;
+    margin-bottom: 100px;
+  }
+  .center:hover{
+    width: 70%;
+    box-shadow: 0 0.1px 40px 0 rgba(255, 255, 255, 1);
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 35%;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
